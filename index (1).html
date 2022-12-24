@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>GRA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="left">
+            <p class="name">GRACZ</p>
+            <div id="p_health">
+                <div id="p_healthbar"></div>
+                <div id="p_healthpoints">1000hp</div>
+            </div>
+            <div class="img"></div>
+        </div>
+        <div id="main">
+            <div class="score_name">
+                <p class="bold">Wynik</p>
+                <p id="score"> 0:0 </p>
+            </div>
+            <div class="score_name">
+                <p class="bold">Tura</p>
+                <p id="number_turn">10</p>
+            </div>
+            <div class="score_name">
+                <p class="bold">Ruch</p>
+                <p id="current_turn">gracz</p>
+            </div>
+        </div>
+        <div id="right">
+            <p class="name">AI-NAZWA</p>
+            <div id="ai_health">
+                <div id="ai_healthbar"></div>
+                <div id="ai_healthpoints">1000hp</div>
+            </div>
+            <div class="img"></div>
+        </div>
+    </div>
+    <div class="legend">
+        <ul>
+            <li class="ability">Uderzenie z pięści</li>
+            <li class="ability">Jebnięcie kopa</li>
+            <li class="ability">Z bani</li>
+            <li class="ability">Kłucie dupy</li>
+        </ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
